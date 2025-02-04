@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Delhi",
+    "description": "The capital city of India, known for its historical landmarks and vibrant culture.",
+    "lat": 28.6139,
+    "lon": 77.209,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Delhi",
+    "mainImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/India_Gate_2014-11-01.jpg/102px-India_Gate_2014-11-01.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Red_Fort_in_Delhi_03-2016_img3.jpg/249px-Red_Fort_in_Delhi_03-2016_img3.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Lotus_Temple_in_New_Delhi_03-2016.jpg/176px-Lotus_Temple_in_New_Delhi_03-2016.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Digambar_Jain_Lal_Mandir%2C_Chandni_Chowk%2C_Delhi.jpg/176px-Digambar_Jain_Lal_Mandir%2C_Chandni_Chowk%2C_Delhi.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mumbai",
+    "description": "The financial capital of India, known for Bollywood and the Gateway of India.",
+    "lat": 19.076,
+    "lon": 72.8777,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Mumbai",
+    "mainImg": "https://images.unsplash.com/photo-1526392060635-9d6019884377",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1526392060635-9d6019884377",
+      "https://images.unsplash.com/photo-1548013146-72479768bada",
+      "https://images.unsplash.com/photo-1522139137660-07584a6d9d25"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Bangalore",
+    "description": "The Silicon Valley of India, known for its IT industry and pleasant weather.",
+    "lat": 12.9716,
+    "lon": 77.5946,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Bangalore",
+    "mainImg": "https://images.unsplash.com/photo-1595845451621-6dff3c5f65b2",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1595845451621-6dff3c5f65b2",
+      "https://images.unsplash.com/photo-1598214886807-361f37b04e2c",
+      "https://images.unsplash.com/photo-1618220179428-67b4344a3447"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Chennai",
+    "description": "The cultural capital of South India, known for its beaches and temples.",
+    "lat": 13.0827,
+    "lon": 80.2707,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Chennai",
+    "mainImg": "https://images.unsplash.com/photo-1636048351281-d8c8bbdc9827",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1636048351281-d8c8bbdc9827",
+      "https://images.unsplash.com/photo-1613211933179-9183f40bca0d",
+      "https://images.unsplash.com/photo-1597318186997-5b6c73e4e4d3"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Kolkata",
+    "description": "The City of Joy, known for its colonial architecture and cultural heritage.",
+    "lat": 22.5726,
+    "lon": 88.3639,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Kolkata",
+    "mainImg": "https://images.unsplash.com/photo-1552975084-6e027cd34590",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1552975084-6e027cd34590",
+      "https://images.unsplash.com/photo-1571861838496-6f6535a6e337",
+      "https://images.unsplash.com/photo-1610473356019-1276dc052db5"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Hyderabad",
+    "description": "The City of Pearls, known for its biryani, Charminar, and IT industry.",
+    "lat": 17.385,
+    "lon": 78.4867,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Hyderabad",
+    "mainImg": "https://images.unsplash.com/photo-1616216533352-d79ea37f306f",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1616216533352-d79ea37f306f",
+      "https://images.unsplash.com/photo-1613164167256-3df5b6df6f45",
+      "https://images.unsplash.com/photo-1618654694091-7a2823cde8e8"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Pune",
+    "description": "The Oxford of the East, known for its educational institutions and IT hubs.",
+    "lat": 18.5204,
+    "lon": 73.8567,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Pune",
+    "mainImg": "https://images.unsplash.com/photo-1581338834647-ff2989a68d7f",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1581338834647-ff2989a68d7f",
+      "https://images.unsplash.com/photo-1565792598683-0331a16e133e",
+      "https://images.unsplash.com/photo-1565792597722-01b6f78bb0c2"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Jaipur",
+    "description": "The Pink City, known for its royal heritage and stunning forts.",
+    "lat": 26.9124,
+    "lon": 75.7873,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Jaipur",
+    "mainImg": "https://images.unsplash.com/photo-1550473318-e1d6a034d9d4",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1550473318-e1d6a034d9d4",
+      "https://images.unsplash.com/photo-1546182990-dffeafbe841d",
+      "https://images.unsplash.com/photo-1581256245804-1a1f07e068a0"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Ahmedabad",
+    "description": "The largest city in Gujarat, known for its textile industry and Sabarmati Ashram.",
+    "lat": 23.0225,
+    "lon": 72.5714,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Ahmedabad",
+    "mainImg": "https://images.unsplash.com/photo-1598465457851-543d8db38814",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1598465457851-543d8db38814",
+      "https://images.unsplash.com/photo-1598465460731-567ed8b10421",
+      "https://images.unsplash.com/photo-1619193983822-9a6b86ac7a3a"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Lucknow",
+    "description": "The City of Nawabs, known for its Mughal-era architecture and kebabs.",
+    "lat": 26.8467,
+    "lon": 80.9462,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Lucknow",
+    "mainImg": "https://images.unsplash.com/photo-1637831273624-3ec7b273c843",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1637831273624-3ec7b273c843",
+      "https://images.unsplash.com/photo-1618439366093-3892e2f1d6a4",
+      "https://images.unsplash.com/photo-1599058917211-b96268e260d6"
+    ]
+  }
+]
