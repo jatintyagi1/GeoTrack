@@ -50,13 +50,14 @@ const App: React.FC = () => {
 
   return (
     <div className="app">
+      <Sidebar
+        locations={filteredLocations}
+        searchInputRef={searchInputRef}
+        onLocationSelect={handleLocationSelect}
+        handleSearch={handleSearch}
+      />
       <Suspense fallback={<Loading />}>
-        <Sidebar
-          locations={filteredLocations}
-          searchInputRef={searchInputRef}
-          onLocationSelect={handleLocationSelect}
-          handleSearch={handleSearch}
-        />
+        {' '}
         <MapComponent locations={filteredLocations} currLocation={currLocation} />
       </Suspense>
     </div>
