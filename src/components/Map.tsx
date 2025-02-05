@@ -1,5 +1,8 @@
 import React, { useCallback, useMemo } from 'react';
 import { MapContainer, TileLayer, useMap, Marker } from 'react-leaflet';
+import L from "leaflet";
+import markerIcon from "leaflet/dist/images/marker-icon.png";
+import markerShadow from "leaflet/dist/images/marker-shadow.png";
 import 'leaflet/dist/leaflet.css';
 import { Location } from '../types';
 import { useEffect } from 'react';
@@ -12,9 +15,12 @@ interface MapProps {
   currLocation: Location;
 }
 
+
+
 // Component to display and move the map to the current location
 const MapView: React.FC<{ currLocation: Location }> = React.memo(({ currLocation }) => {
   const map = useMap();
+
 
   // Selector for triggering map movements, memoized to prevent re-renders
   const mapMovements = useSelector(useMemo(() => (state: any) => state.map.mapMovedTrigger, []));
@@ -80,6 +86,15 @@ const LocateControl: React.FC = React.memo(() => {
 const Map: React.FC<MapProps> = ({ locations, currLocation }) => {
   const defaultPosition: [number, number] = [28.6139, 77.2090]; // Default center position (Delhi)
 
+
+  const customIcon = new L.Icon({
+    iconUrl: markerIcon,
+    shadowUrl: markerShadow,
+    iconSize: [25, 41], // Default size
+    iconAnchor: [12, 41],
+  });
+
+
   return (
     <div className="map-container" style={{ position: 'relative' }}>
       <MapContainer
@@ -93,13 +108,13 @@ const Map: React.FC<MapProps> = ({ locations, currLocation }) => {
 
         {/* Add markers for all locations */}
         {locations.map((location) => (
-          <Marker key={location.id} position={[location.lat, location.lon]}>
+          <Marker key={location.id} position={[location.lat, location.lon]} icon={customIcon}>
             <CityCard location={location} />
           </Marker>
         ))}
 
         <MapView currLocation={currLocation} />
-        
+
         <LocateControl />
       </MapContainer>
     </div>
